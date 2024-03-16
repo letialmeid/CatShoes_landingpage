@@ -1,0 +1,87 @@
+body{
+    background-color: grey;
+    color: white;
+    font-family:cursive;
+    max-width: 1200px;
+    margin: 0 auto;
+   padding: 15px;
+    
+}
+header{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+#titulo{
+    flex-direction: row;
+    text-decoration: underline;
+    border: 5px solid rgb(172, 21, 127);
+    padding: 7px;
+}
+li{
+    display: inline-block;
+    margin: 20px;
+    text-decoration: underline;
+}
+a{
+    color: rgb(172, 21, 127);
+}
+a:hover{
+    color: rgb(209, 134, 209);
+    transition: 0.3s all;
+}
+
+main{
+    display: flex;
+    flex-direction: row;
+}
+h2{
+    font-size: 50px;
+    line-height:10px ;
+}
+spam{
+   color: hotpink; 
+}
+p{
+    line-height: 30px;
+    max-width: 550px;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 30px;
+    
+}
+img{
+    width: 700px;
+}
+#botao_inscrever{
+    border:2px solid hotpink;
+    padding: 10px;
+    border-radius:20px;
+}
+#botao_inscrever:hover{
+    background-color: rgb(172, 21, 127); 
+    color: white;
+}
+form{
+    display: flex;
+    flex-direction: column;
+    width: 80%;
+    align-items: center;
+}
+#botao_enviar{
+    height: 40px ;
+    width: 65px;
+    background-color: rgb(172, 21, 127); 
+    color: white;
+    font-weight: bold;
+}
+
+input{
+    margin-top: 20px;
+    height: 20px;
+    padding: 10px;
+    border-radius: 10px;
+    border: none; 
+    font-size: 15px;
+}
+
