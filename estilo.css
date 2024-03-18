@@ -51,6 +51,9 @@ p{
 img{
     width: 700px;
 }
+spam{
+    color: hotpink;
+}
 #botao_inscrever{
     border:2px solid hotpink;
     padding: 10px;
